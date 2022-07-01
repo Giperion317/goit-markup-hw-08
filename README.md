@@ -1,2 +1,2 @@
 # goit-markup-hw-08
-Homework 7 Adaptive layout
+Homework 8 Adaptive layout
