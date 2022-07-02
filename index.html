@@ -35,6 +35,11 @@
                     </li>
                 </ul>
             </nav>
+            <button type="button" class="mobile-menu-open-btn" data-menu-open>
+                <svg class="mobile-menu-open-btn__icon" width="40" height="40">
+                    <use href="./images/sprite.svg#icon-menu-open"></use>
+                </svg>
+            </button>
             <ul class="contact-header list">
                 <li class="contact-header__item">
                     <a class="contact-header__link link" href="mailto:info@devstudio.com">
@@ -54,18 +59,42 @@
                 </li>
             </ul>
         </div>
+        <div class="mobile-menu" data-menu>
+            <div class="conteiner mobile-menu__conteiner">
+                <button type="button" class="mobile-menu__clouse-btn" data-menu-close>
+                    <svg class="mobile-menu__clouse-icon" width="40" height="40">
+                        <use href="./images/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__nav">
+                    <li class="mobile-menu__nav-item"><a href="" class="mobile-menu__nav-link">Студия</a></li>
+                    <li class="mobile-menu__nav-item"><a href="" class="mobile-menu__nav-link">Портфолио</a></li>
+                    <li class="mobile-menu__nav-item"><a href="" class="mobile-menu__nav-link">Контакты</a></li>
+                </ul>
+                <ul class="mobile-menu__contact">
+                    <li class="mobile-menu__contact-item"><a href="" class="mobile-menu__contact-link">+38 096 111 11 11</a></li>
+                    <li class="mobile-menu__contact-item"><a href="" class="mobile-menu__contact-link"></a>info@devstudio.com</li>
+                </ul>
+                <ul class="mobile-menu__social">
+                    <li class="mobile-menu__social-item"><a href="" class="mobile-menu__social-link">Instagram</a></li>
+                    <li class="mobile-menu__social-item"><a href="" class="mobile-menu__social-link">Twitter</a></li>
+                    <li class="mobile-menu__social-item"><a href="" class="mobile-menu__social-link">Facebook</a></li>
+                    <li class="mobile-menu__social-item"><a href="" class="mobile-menu__social-link">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <!-- page main -->
     <main>
         <!-- section hero -->
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="conteiner">
                 <h1 class="hero__title">Эффективные решения <span class="hero__item">для вашего бизнеса</span></h1>
                 <button class="button" type="button" data-modal-open>Заказать услугу</button>
             </div>
-        </section>
+        </section> -->
         <!-- section credo -->
-        <section class="section">
+        <!-- <section class="section">
             <div class="conteiner">
                 <h2 class="visually-hidden">Наше кредо</h2>
                 <ul class="credo list">
@@ -111,9 +140,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!-- section work -->
-        <section class="section section__no_pading-top">
+        <!-- <section class="section section__no_pading-top">
             <div class="conteiner">
                 <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="work list">
@@ -149,9 +178,9 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!-- section our team -->
-        <section class="section section__other_background">
+        <!-- <section class="section section__other_background">
             <div class="conteiner">
                 <h2 class="section__title">Наша команда</h2>
                 <ul class="our-team list">
@@ -309,8 +338,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="section customers__other_pading-top">
+        </section> -->
+        <!-- <section class="section customers__other_pading-top">
             <div class="conteiner">
                 <h2 class="section__title">Постоянные клиенты</h2>
                 <ul class="customers list">
@@ -358,9 +387,9 @@
                         </li>
                  </ul>
             </div>
-        </section> 
+        </section>  -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="conteiner footer__conteiner">
             <div class="footer__contact-block">
                 <a class="logo footer__logo link" href="./index.html" lang="en">Web<span class="logo__lite">Studio</span></a>
@@ -433,9 +462,9 @@
                 
             </form>
         </div>
-    </footer>
+    </footer> -->
     <!-- backdrop -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__clous-btn" data-modal-close>
                 <svg class="modal__clous-icon" width="18" height="18">
@@ -507,9 +536,10 @@
                 
             </form>
         </div>
-    </div>
+    </div> -->
 
-    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
 </body>
 
 </html>
