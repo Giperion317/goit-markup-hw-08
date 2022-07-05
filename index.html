@@ -170,31 +170,46 @@
                 <ul class="work list">
                     <li class="work__item">
                         <div class="work__wrapper">
-                            <img class="work__image" src="./images/section-work/box-1.jpg" 
-                            alt="Создание приложения" 
-                            width="370" 
-                            height="294" 
-                            />
+                            <picture>
+                                <source 
+                                srcset="./images/section-work/box-1.webp 1x, ./images/section-work/box-1@2x.webp 2x"
+                                type="image/webp"
+                                >
+                                <source
+                                    srcset="./images/section-work/box-1.jpg 1x, ./images/section-work/box-1@2x.jpg 2x"
+                                >
+                                <img class="work__image" src="./images/section-work/box-1.jpg" alt="Создание приложения" width="370" height="294" />
+                            </picture>
                             <h3 class="work__title">Десктопные приложения</h3>
                         </div>
                     </li>
                     <li class="work__item">
                         <div class="work__wrapper">
-                            <img class="work__image" src="./images/section-work/box-2.jpg" 
-                            alt="Создание мобильного приложения" 
-                            width="370"
-                            height="294" 
-                            />
+                            <picture>
+                                <source 
+                                srcset="./images/section-work/box-2.webp 1x, ./images/section-work/box-2@2x.webp 2x" 
+                                type="image/webp"
+                                >
+                                <source 
+                                srcset="./images/section-work/box-2.jpg 1x, ./images/section-work/box-2@2x.jpg 2x"
+                                >
+                                <img class="work__image" src="./images/section-work/box-2.jpg" alt="Создание приложения" width="370" height="294" />
+                            </picture>
                             <h3 class="work__title">Мобильные приложения</h3>
                         </div>
                     </li>
                     <li class="work__item">
                         <div class="work__wrapper">
-                            <img class="work__image" src="./images/section-work/box-3.jpg" 
-                            alt="Работа дизайнера" 
-                            width="370" 
-                            height="294" 
-                            />
+                            <picture>
+                                <source 
+                                srcset="./images/section-work/box-3.webp 1x, ./images/section-work/box-3@2x.webp 2x" 
+                                type="image/webp"
+                                >
+                                <source 
+                                srcset="./images/section-work/box-3.jpg 1x, ./images/section-work/box-3@2x.jpg 2x"
+                                >
+                                <img class="work__image" src="./images/section-work/box-3.jpg" alt="Создание приложения" width="370" height="294" />
+                            </picture>
                             <h3 class="work__title">Дизайнерские решения</h3>
                         </div>
                     </li>
@@ -202,13 +217,36 @@
             </div>
         </section>
         <!-- section our team -->
-        <!-- <section class="section section__other_background">
+        <section class="section section__other_background">
             <div class="conteiner">
                 <h2 class="section__title">Наша команда</h2>
                 <ul class="our-team list">
                     <li class="our-team__item">
-                        <img src="./images/our-team/игорь-демьяненко.jpg"
-                            alt="Парень в очках улыбается" width="270" height="260" />
+                        <picture>
+                            <source srcset="./images/our-team/igor-demyanenko.webp 1x, ./images/our-team/igor-demyanenko@2x.webp 2x"
+                                media="(min-width:1200px)"
+                                type="image/webp"
+                            >
+                            <source 
+                                srcset="./images/our-team/igor-demyanenko.jpg 1x, ./images/our-team/igor-demyanenko@2x.jpg 2x"
+                                media="(min-width:1200px)"
+                            >
+                            <source srcset="./images/our-team/igor-demyanenko-tablet.webp 1x, ./images/our-team/igor-demyanenko-tablet@2x.webp 2x"
+                                media="(min-width:768px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/igor-demyanenko-tablet.jpg 1x, ./images/our-team/igor-demyanenko-tablet@2x.jpg 2x"
+                                media="(min-width:768px)"
+                            >
+                            <source srcset="./images/our-team/igor-demyanenko-mobile.webp 1x, ./images/our-team/igor-demyanenko-mobile@2x.webp 2x"
+                                media="(max-width:767px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/igor-demyanenko-mobile.jpg 1x, ./images/our-team/igor-demyanenko-mobile@2x.jpg 2x"
+                                media="(max-width:767px)"
+                            >
+                            <img src="./images/our-team/igor-demyanenko.jpg" alt="Парень в очках улыбается"/>
+                        </picture>
                         <div class="our-team__wrapper">
                             <h3 class="our-team__title">Игорь Демьяненко</h3>
                             <p class="our-team__text" lang="en">Product Designer</p>
@@ -245,8 +283,30 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <img src="./images/our-team/ольга-репина.jpg"
-                            alt="Девушка в очках улыбается" width="270" height="260" />
+                        <picture>
+                            <source srcset="./images/our-team/olga-repina.webp 1x, ./images/our-team/olga-repina@2x.webp 2x"
+                                media="(min-width:1200px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/olga-repina.jpg 1x, ./images/our-team/olga-repina@2x.jpg 2x"
+                                media="(min-width:1200px)"
+                            >
+                            <source srcset="./images/our-team/olga-repina-tablet.webp 1x, ./images/our-team/olga-repina-tablet@2x.webp 2x"
+                                media="(min-width:768px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/olga-repina-tablet.jpg 1x, ./images/our-team/olga-repina-tablet@2x.jpg 2x"
+                                media="(min-width:768px)"
+                            >
+                            <source srcset="./images/our-team/olga-repina-mobile.webp 1x, ./images/our-team/olga-repina-mobile@2x.webp 2x"
+                                media="(max-width:767px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/olga-repina-mobile.jpg 1x, ./images/our-team/olga-repina-mobile@2x.jpg 2x"
+                                media="(max-width:767px)"
+                                >
+                            <img src="./images/our-team/olga-repina.jpg" alt="Девушка в очках улыбается" />
+                        </picture>
                         <div class="our-team__wrapper">
                             <h3 class="our-team__title">Ольга Репина</h3>
                             <p class="our-team__text" lang="en">Frontend Developer</p>
@@ -283,8 +343,30 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <img src="./images/our-team/николай-тарасов.jpg" alt="Парень улыбается"
-                            width="270" height="260" />
+                        <picture>
+                            <source srcset="./images/our-team/nikolay-tarasov.webp 1x, ./images/our-team/nikolay-tarasov@2x.webp 2x"
+                                media="(min-width:1200px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/nikolay-tarasov.jpg 1x, ./images/our-team/nikolay-tarasov@2x.jpg 2x"
+                                media="(min-width:1200px)"
+                            >
+                            <source srcset="./images/our-team/nikolay-tarasov-tablet.webp 1x, ./images/our-team/nikolay-tarasov-tablet@2x.webp 2x"
+                                media="(min-width:768px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/nikolay-tarasov-tablet.jpg 1x, ./images/our-team/nikolay-tarasov-tablet@2x.jpg 2x"
+                                media="(min-width:768px)"
+                            >
+                            <source srcset="./images/our-team/nikolay-tarasov-mobile.webp 1x, ./images/our-team/nikolay-tarasov-mobile@2x.webp 2x"
+                                media="(max-width:767px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/nikolay-tarasov-mobile.jpg 1x, ./images/our-team/nikolay-tarasov-mobile@2x.jpg 2x"
+                                media="(max-width:767px)"
+                            >
+                            <img src="./images/our-team/nikolay-tarasov.jpg" alt="Парень улыбается" />
+                        </picture>
                         <div class="our-team__wrapper">
                             <h3 class="our-team__title">Николай Тарасов</h3>
                             <p class="our-team__text" lang="en">Marketing</p>
@@ -321,8 +403,32 @@
                         </div>
                     </li>
                     <li class="our-team__item">
-                        <img src="./images/our-team/михаил-ермаков.jpg" alt="Парень в очках"
-                            width="270" height="260" />
+                        <picture>
+                            <source srcset="./images/our-team/mikhail-ermakov.webp 1x, ./images/our-team/mikhail-ermakov@2x.webp 2x"
+                                media="(min-width:1200px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/mikhail-ermakov.jpg 1x, ./images/our-team/mikhail-ermakov@2x.jpg 2x"
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="./images/our-team/mikhail-ermakov-tablet.webp 1x, ./images/our-team/mikhail-ermakov-tablet@2x.webp 2x"
+                                media="(min-width:768px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/mikhail-ermakov-tablet.jpg 1x, ./images/our-team/mikhail-ermakov-tablet@2x.jpg 2x"
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="./images/our-team/mikhail-ermakov-mobile.webp 1x, ./images/our-team/mikhail-ermakov-mobile@2x.webp 2x"
+                                media="(max-width:767px)" 
+                                type="image/webp"
+                            >
+                            <source srcset="./images/our-team/mikhail-ermakov-mobile.jpg 1x, ./images/our-team/mikhail-ermakov-mobile@2x.jpg 2x"
+                                media="(max-width:767px)"
+                            >
+                            <img src="./images/our-team/mikhail-ermakov.jpg" alt="Парень в очках" />
+                        </picture>
                         <div class="our-team__wrapper">
                             <h3 class="our-team__title">Михаил Ермаков</h3>
                             <p class="our-team__text" lang="en">UI Designer</p>
@@ -360,7 +466,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- <section class="section section__other_pading-top">
             <div class="conteiner">
                 <h2 class="section__title">Постоянные клиенты</h2>
